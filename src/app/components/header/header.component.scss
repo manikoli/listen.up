@@ -1,0 +1,10 @@
+@import '../../../tailwind.scss';
+
+@layer components {
+  .header {
+    @apply font-rubik;
+  }
+  .header__logo {
+    @apply rounded-full mr-2;
+  }  
+}

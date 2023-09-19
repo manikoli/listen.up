@@ -1,3 +1,8 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import './tailwind.scss';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Rubik:wght@500&display=swap');
+
+@layer base {
+    html, body {
+        @apply m-0;
+    }
+}
